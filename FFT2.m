@@ -1,4 +1,4 @@
-function F = FFT2(a)
+function F = FFT2(a,k)
     F = zeros(length(a),1);
     n = length(a);
     k= 1:1:n;
